@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 @Table(name = "TODO")
 @Getter
 @Setter
-@RequiredArgsConstructor
 @NoArgsConstructor
 
 public class Todo {

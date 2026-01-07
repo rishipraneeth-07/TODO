@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface TodoRepository extends JpaRepository<Todo, Long> {
-    List<Todo> findByCompleted(Boolean completed);
 
-    Boolean Done(boolean done);
+    List<Todo> findByDone(boolean done);
 }
+

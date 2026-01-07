@@ -62,6 +62,6 @@ public class TodoServiceImpl implements TodoService {
 
     @Override
     public List<Todo> getTodoByCompleted(boolean done) {
-        return todoRepository.findByCompleted(done);
+        return todoRepository.findByDone(done);
     }
 }
