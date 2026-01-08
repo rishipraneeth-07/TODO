@@ -20,4 +20,6 @@
 
    In-memory database (H2)
 
+   Spring Security 
+
    📌Future Enhancements
