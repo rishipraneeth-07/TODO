@@ -22,4 +22,4 @@
 
    Spring Security 
 
-   📌Future Enhancements
+   basic auth
